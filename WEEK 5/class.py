@@ -6,4 +6,6 @@ class Dog:
         
 class Cat:
     def speak(self):
-        return "Meow!"        
+        return "Meow!" 
+    
+           
