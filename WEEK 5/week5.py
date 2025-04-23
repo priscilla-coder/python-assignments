@@ -20,3 +20,5 @@ except FileNotFoundError:
         new_file.write(modified_content)
 
     print(f"✅ Success! Modified content saved to '{new_filename}'.")
+except PermissionError:
+    print("❌ Permission denied. You do not have permission to read this file.")
